@@ -21,8 +21,17 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Death();
     }
+
+    public void Death()
+    {
+        if (StatsManager.Instance.currentHealth <= 0)
+        {
+            GameOver();
+        }
+    }
+
     public void HitEnd()
     {
         Win();
@@ -81,4 +90,5 @@ public class GameManager : MonoBehaviour
     {
         return isGameWin;
     }
+
 }

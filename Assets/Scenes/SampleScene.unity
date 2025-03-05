@@ -4702,8 +4702,8 @@ MonoBehaviour:
   knockBackTime: 0.15
   stunTime: 1
   moveSpeed: 5
-  maxHealth: 20
-  currentHealth: 20
+  maxHealth: 3
+  currentHealth: 3
 --- !u!1 &711722221
 GameObject:
   m_ObjectHideFlags: 0
